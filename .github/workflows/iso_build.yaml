@@ -51,7 +51,7 @@ jobs:
           
           version: ${{ steps.time.outputs.time }}-development
           kernel: linux68
-          code-name: "Nightly-Build"
+          code-name: "Baba_Live"
           release-tag: ${{ needs.prepare-release.outputs.release_tag }}
       -
         name: rollback
