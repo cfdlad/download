@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   #Removed the automated build schedule
   #schedule:
-    #- cron:  '30 2 * * *'
+    - cron:  '30 2 * * *'
 
 jobs:
   prepare-release:
